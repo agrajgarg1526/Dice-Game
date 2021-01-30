@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dice Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 class="title">Let's Play</h1>
+  <div class="container">
+    <div class="dice">
+      <h2 class="player1">Player 1</h2>
+      <img class="first image" src="images/dice6.png" alt="">
+    </div>
+    <div class="dice">
+      <h2 class="player2">Player 2</h2>
+      <img class="second image" src="images/dice6.png" alt="">
+    </div>
+    <div class="role" onclick="rollClicked()">
+      Roll the Dice
+    </div>
+    <div class="firstname name" onclick="promptBox1()">
+      Edit Player 1 Name
+    </div>
+    <div class="secondname name" onclick="promptBox2()">
+      Edit Player 2 Name
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>>
+
+  </script>
+</body>
+
+</html>

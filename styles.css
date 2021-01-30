@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  background-image: url("images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Potta One', cursive;
+  color: #00af91;
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2 {
+  color: #00af91;
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding: 20px 440px 40px 440px;
+}
+
+.dice {
+  display: inline-block;
+  margin: 20px 40px;
+}
+
+.image {
+  width: 220px;
+  height: 220px;
+  background-color: #dddddd;
+  border-radius: 30px;
+}
+
+.name {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  margin: 15px 15px;
+  padding: 15px 15px;
+  color: #dddddd;
+  border-radius: 10px;
+  background-color: #00af91;
+}
+
+.role {
+  font-size: 2rem;
+  font-weight: 600;
+  width: 40%;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px 20px;
+  padding: 20px 20px;
+  color: #dddddd;
+  border-radius: 10px;
+  background-color: #00af91;
+  margin-left: 170px;
+}
+
+.name:hover, .role:hover {
+  background-color: #222831;
+}
+
+.pressed {
+  box-shadow: 0 3px 3px 3px #007965;
+}
